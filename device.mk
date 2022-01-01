@@ -367,8 +367,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-elixir
-
+    
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.xiaomi_msmnile
